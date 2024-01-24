@@ -7,8 +7,8 @@
     </title>
     <style>
         .thumbnail {
-            width: 300px;
-            display: block;
+            width: "100%";
+
         }
 
         .search {
@@ -17,30 +17,41 @@
         }
 
         .video-title {
-          margin-top: 0;
+            margin-top: 0;
         }
 
         .video-preview {
-            width: 300px;
-            display: inline-block;
-
             margin-right: 10px;
         }
-        .channel-picture{
+
+        .channel-picture {
             display: inline-block;
             width: 50px;
             vertical-align: top;
         }
-        .video-info{
+
+        .video-info {
             display: inline-block;
             width: 200px;
         }
-        .profile-picture{
-            width:40px;
-            
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .video-info-grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+
+        .profile-picture {
+            width: 40px;
+
             border-radius: 50px;
         }
-        .thumbnai-row{
+
+        .thumbnai-row {
             margin-bottom: 12px;
         }
     </style>
@@ -48,58 +59,158 @@
 
 <body>
     <input class="search" placeholder="Search">
-    <div class="video-preview">
-        <div>
+    <div class="video-grid">
+        <div class="video-preview">
             <div class="thumbnai-row">
-            <img class="thumbnail" src="https://thuthuattienich.com/wp-content/uploads/2017/06/anh-dai-dien-facebook-cho-meo-de-thuong-27.jpg" />
+                <img class="thumbnail"
+                    src="https://thuthuattienich.com/wp-content/uploads/2017/06/anh-dai-dien-facebook-cho-meo-de-thuong-27.jpg" />
+            </div>
+            <div class="video-info-grid ">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="ngua.jpg" />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+
+                        Talking Tech<strong> and AI with</strong>
+                        Google CEO Sundar Pichai!fff
+                    </p>
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+                    <p class="video-stats">
+
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnai-row">
+                <img class="thumbnail"
+                    src="https://thuthuattienich.com/wp-content/uploads/2017/06/anh-dai-dien-facebook-cho-meo-de-thuong-27.jpg" />
+            </div>
+            <div class="video-info-grid ">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="ngua.jpg" />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+
+                        Talking Tech<strong> and AI with</strong>
+                        Google CEO Sundar Pichai!fff
+                    </p>
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+                    <p class="video-stats">
+
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnai-row">
+                <img class="thumbnail"
+                    src="https://thuthuattienich.com/wp-content/uploads/2017/06/anh-dai-dien-facebook-cho-meo-de-thuong-27.jpg" />
+            </div>
+            <div class="video-info-grid ">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="ngua.jpg" />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+
+                        Talking Tech<strong> and AI with</strong>
+                        Google CEO Sundar Pichai!fff
+                    </p>
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+                    <p class="video-stats">
+
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-        <div>
-            <div class="channel-picture">
-                <img class="profile-picture" src="ngua.jpg" />
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnai-row">
+                <img class="thumbnail"
+                    src="https://thuthuattienich.com/wp-content/uploads/2017/06/anh-dai-dien-facebook-cho-meo-de-thuong-27.jpg" />
             </div>
-            <div class="video-info">
-                <p class="video-title">
+            <div class="video-info-grid ">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="ngua.jpg" />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
 
-                    Talking Tech<strong> and AI with</strong>
-                    Google CEO Sundar Pichai!fff
-                </p>
-                <p class="video-author">
-                    Marques Brownlee
-                </p>
-                <p class="video-stats">
-    
-                    3.4M views &#183; 6 months ago
-                </p>
-            </div>
-          
-            
-        </div>
-    </div>
-    <div class="video-preview">
-        <div>
-            <img class="thumbnail" src="https://thuthuattienich.com/wp-content/uploads/2017/06/anh-dai-dien-facebook-cho-meo-de-thuong-27.jpg" />
-        </div>
-        <div>
-            <div class="channel-picture">
-                <img class="profile-picture" src="ngua.jpg" />
-            </div>
-            <div class="video-info">
-                <p class="video-title">
+                        Talking Tech<strong> and AI with</strong>
+                        Google CEO Sundar Pichai!fff
+                    </p>
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+                    <p class="video-stats">
 
-                    Talking Tech<strong> and AI with</strong>
-                    Google CEO Sundar Pichai!fff
-                </p>
-                <p class="video-author">
-                    Marques Brownlee
-                </p>
-                <p class="video-stats">
-    
-                    3.4M views &#183; 6 months ago
-                </p>
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
             </div>
-          
-            
+        </div>
+        <div class="video-preview">
+            <div class="thumbnai-row">
+                <img class="thumbnail"
+                    src="https://thuthuattienich.com/wp-content/uploads/2017/06/anh-dai-dien-facebook-cho-meo-de-thuong-27.jpg" />
+            </div>
+            <div class="video-info-grid ">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="ngua.jpg" />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+
+                        Talking Tech<strong> and AI with</strong>
+                        Google CEO Sundar Pichai!fff
+                    </p>
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+                    <p class="video-stats">
+
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnai-row">
+                <img class="thumbnail"
+                    src="https://thuthuattienich.com/wp-content/uploads/2017/06/anh-dai-dien-facebook-cho-meo-de-thuong-27.jpg" />
+            </div>
+            <div class="video-info-grid ">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="ngua.jpg" />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+
+                        Talking Tech<strong> and AI with</strong>
+                        Google CEO Sundar Pichai!fff
+                    </p>
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+                    <p class="video-stats">
+
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
